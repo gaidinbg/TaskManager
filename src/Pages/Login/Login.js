@@ -22,7 +22,7 @@ componentWillMount() {
 
   var loggedUser = JSON.parse(localStorage.getItem('loggedUser'));
 
-  if(loggedUser.id) //already logged
+  if(loggedUser.id) //already logged  then aller message
         {
       alert('Already logged');
       this.setState({redirect:true});
